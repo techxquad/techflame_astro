@@ -1,0 +1,66 @@
+{
+  "careers": [
+    {
+      "id": 1,
+      "position": "AutoCAD Designer",
+      "job_description": "We are currently seeking a talented and highly motivated AutoCAD Designer to join our team. As a Firefighting AutoCAD Designer, you will play a crucial role in designing and drafting fire protection and suppression systems using AutoCAD software. You will collaborate with our engineering and project management teams to ensure that our solutions meet the highest safety standards and comply with all relevant codes and regulations.",
+      "responsibilities": [
+        "Create detailed fire protection system designs and layouts using AutoCAD software.",
+        "Collaborate with engineers and project managers to understand project requirements and objectives.",
+        "Review architectural and engineering plans to identify fire protection system needs.",
+        "Design and draft fire sprinkler systems, fire alarms, fire extinguishing systems, and related components.",
+        "Prepare accurate documentation, including drawings, BOQs, schematics, and technical specifications.",
+        "Conduct quality checks on completed designs to guarantee accuracy and compliance.",
+        "Stay updated with industry standards, codes, and regulations related to fire protection systems."
+      ],
+      "qualifications": [
+        "Proven experience as an AutoCAD Designer, preferably in the fire protection industry.",
+        "In-depth knowledge of AutoCAD software and its applications in designing fire protection systems.",
+        "Familiarity with fire protection codes and standards, such as NFPA, IBC, FM, and local building codes (desirable but not required).",
+        "Strong attention to detail and the ability to produce accurate and error-free designs.",
+        "Ability to work on multiple projects simultaneously and meet deadlines."
+      ]
+    },
+    {
+      "id": 2,
+      "position": "Sales Manager (Hard Core Sales Profile - Field Work)",
+      "job_description": "We're seeking a dynamic, experienced, and result-driven individual to join our sales team as Sales Manager. The successful candidate will be responsible for generating leads, prospecting new clients, and closing sales to meet and exceed sales targets.",
+      "responsibilities": [
+        "Identify and prospect potential clients through various channels, including cold calling, field work, networking, and referrals.",
+        "Build and maintain strong relationships with existing and new clients to understand their needs and provide tailored solutions.",
+        "Conduct product demonstrations and presentations to showcase the features and benefits of our product.",
+        "Negotiate and close sales agreements to achieve sales targets and revenue goals.",
+        "Prepare and submit sales reports to management to track performance and identify opportunities for improvement.",
+        "Stay updated on industry trends, market conditions, and competitor activities to stay ahead in the market.",
+        "Provide excellent customer service before, during, and after the sales process to ensure customer satisfaction and retention."
+      ],
+      "qualifications": [
+        "Bachelor’s degree in Business Administration, Marketing or a related field.",
+        "Proven track record of successful sales performance and achieving targets.",
+        "Excellent communication, negotiation, and interpersonal skills.",
+        "Strong problem-solving abilities and a proactive approach to sales."
+      ],
+      "benefits": [
+        "Competitive salary and incentive structure based on performance.",
+        "Travel allowance and reimbursement.",
+        "Opportunities for career growth and advancement within the company."
+      ]
+    },
+    {
+      "id": 3,
+      "position": "Junior Accountant",
+      "job_description": "We are looking for an ambitious Junior Accountant to provide support to the financial department by managing daily accounting tasks. You will be part of a team of professionals working to maintain order and transparency for the company’s finances.",
+      "responsibilities": [
+        "Post and process journal entries to ensure all business transactions are recorded.",
+        "Update accounts receivable and issue invoices.",
+        "Update accounts payable and perform reconciliations.",
+        "Assist in the processing of balance sheets, income statements, and other financial statements according to legal and company accounting and financial guidelines.",
+        "Assist with reviewing of expenses, payroll records etc. as assigned.",
+        "Update financial data in databases to ensure that information will be accurate and immediately available when needed.",
+        "Prepare and submit weekly/monthly reports.",
+        "Assist senior accountants in the preparation of monthly/yearly closings.",
+        "Assist with other accounting projects."
+      ]
+    }
+  ]
+}
