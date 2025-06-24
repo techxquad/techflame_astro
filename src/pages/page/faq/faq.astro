@@ -1,10 +1,68 @@
+<link rel='stylesheet' id='elementor-post-779-css'
+	href='../../wp-content/uploads/sites/30/elementor/css/post-7799d60.css?ver=1745655198' media='all' />
 
-	<link rel='stylesheet' id='elementor-post-779-css'
-		href='../../wp-content/uploads/sites/30/elementor/css/post-7799d60.css?ver=1745655198' media='all' />
-	
+
+	 <style>
+        .faq-section {
+            background: linear-gradient(135deg, #0f0f0f 0%, #1a0000 100%);
+        }
+
+        .faq-item {
+            border-bottom: 1px solid rgba(255, 51, 51, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        .faq-item:hover {
+            border-bottom-color: rgba(255, 51, 51, 0.8);
+        }
+
+        .faq-question {
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .faq-question:hover .question-text {
+            color: #ff3333;
+        }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.5s ease;
+        }
+
+        .faq-item.active .faq-answer {
+            max-height: 500px;
+        }
+
+        .faq-item.active .plus-icon {
+            transform: rotate(45deg);
+        }
+
+        .plus-icon {
+            transition: transform 0.3s ease;
+        }
+
+        .section-title::after {
+            content: "";
+            display: block;
+            width: 80px;
+            height: 4px;
+            background-color: #ff3333;
+            margin: 15px auto 0;
+        }
+
+        .fire-icon {
+            filter: drop-shadow(0 0 8px rgba(255, 51, 51, 0.6));
+        }
+
+        .faq-container {
+            box-shadow: 0 10px 30px -15px rgba(255, 51, 51, 0.3);
+        }
+    </style>
 <div
 	class="wp-singular envato_tk_templates-template envato_tk_templates-template-elementor_header_footer single single-envato_tk_templates postid-779 wp-embed-responsive wp-theme-hello-elementor hello-elementor-default elementor-default elementor-template-full-width elementor-kit-3 elementor-page elementor-page-779">
-	
+
 	<div data-elementor-type="wp-post" data-elementor-id="779" class="elementor elementor-779">
 		<div class="elementor-element elementor-element-1ff5d73 e-flex e-con-boxed e-con e-parent" data-id="1ff5d73"
 			data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -23,696 +81,163 @@
 				</div>
 			</div>
 		</div>
-		<div class="elementor-element elementor-element-1e11bd7 e-flex e-con-boxed e-con e-parent" data-id="1e11bd7"
-			data-element_type="container">
-			<div class="e-con-inner">
-				<div class="elementor-element elementor-element-d9a5fd2 elementor-widget elementor-widget-heading"
-					data-id="d9a5fd2" data-element_type="widget" data-widget_type="heading.default">
-					<div class="elementor-widget-container">
-						<h5 class="elementor-heading-title elementor-size-default">Frequently Asked Questions</h5>
-					</div>
-				</div>
-				<div class="elementor-element elementor-element-c9b0d95 elementor-widget elementor-widget-heading"
-					data-id="c9b0d95" data-element_type="widget" data-widget_type="heading.default">
-					<div class="elementor-widget-container">
-						<h2 class="elementor-heading-title elementor-size-default">Rescue-Related Questions.</h2>
-					</div>
-				</div>
-				<div class="elementor-element elementor-element-02fee99 elementor-widget__width-initial elementor-widget elementor-widget-text-editor"
-					data-id="02fee99" data-element_type="widget" data-widget_type="text-editor.default">
-					<div class="elementor-widget-container">
-						<p>Praesent malesuada odio lorem, in mollis odio blandit at. Etiam scelerisque pharetra commodo.
-							Mauris in nunc vel mi ornare aliquam ac in sapien. Vestibulum ac urna lacus.</p>
-					</div>
-				</div>
-				<div class="elementor-element elementor-element-7ebbd3f e-con-full e-flex e-con e-child"
-					data-id="7ebbd3f" data-element_type="container">
-					<div class="elementor-element elementor-element-7f58175 e-con-full e-flex e-con e-child"
-						data-id="7f58175" data-element_type="container">
-						<div class="elementor-element elementor-element-f7a977c elementor-widget elementor-widget-elementskit-accordion"
-							data-id="f7a977c" data-element_type="widget"
-							data-widget_type="elementskit-accordion.default">
-							<div class="elementor-widget-container">
-								<div class="ekit-wid-con">
-									<div class="elementskit-accordion accoedion-primary" id="accordion-6826fdd85d998">
+	
+ <section class="faq-section py-16 px-4">
+        <div class="container mx-auto max-w-4xl">
+            <div class="text-center mb-12">
+                <div class="flex justify-center mb-4">
+                    <svg class="fire-icon w-12 h-12 text-red-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                        fill="currentColor">
+                        <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z">
+                        </path>
+                    </svg>
+                </div>
+                <h2 class="section-title text-3xl md:text-4xl font-bold text-white mb-4">Frequently Asked Questions</h2>
+                <p class="text-gray-400 max-w-2xl mx-auto">Get answers to the most common questions about our fire
+                    protection services and solutions</p>
+            </div>
+
+            <div class="faq-container bg-black bg-opacity-50 rounded-xl p-6 md:p-8 border border-red-900">
+                <!-- FAQ Item 1 -->
+                <div class="faq-item pb-4 mb-4">
+                    <div class="faq-question flex justify-between items-center">
+                        <h3 class="question-text text-xl font-semibold text-white">How often should fire extinguishers
+                            be inspected?</h3>
+                      <i class="fa-solid fa-arrow-right text-white transition-transform duration-300 peer-checked:rotate-90"></i>
+                    </div>
+                    <div class="faq-answer mt-2">
+                        <p class="text-gray-400">Fire extinguishers should be visually inspected monthly to ensure they
+                            are properly charged and in good working condition. Additionally, professional maintenance
+                            should be performed annually, with a more thorough inspection every 5-12 years depending on
+                            the type of extinguisher.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="faq-item pb-4 mb-4">
+                    <div class="faq-question flex justify-between items-center">
+                        <h3 class="question-text text-xl font-semibold text-white">What types of fire alarm systems do
+                            you offer?</h3>
+                      <i class="fa-solid fa-arrow-right text-white transition-transform duration-300 peer-checked:rotate-90"></i>
+                    </div>
+                    <div class="faq-answer mt-2">
+                        <p class="text-gray-400">We offer a comprehensive range of fire alarm systems including
+                            conventional systems, addressable systems, wireless systems, and smart integrated systems.
+                            Our solutions can be customized based on your building size, occupancy type, and specific
+                            safety requirements.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="faq-item pb-4 mb-4">
+                    <div class="faq-question flex justify-between items-center">
+                        <h3 class="question-text text-xl font-semibold text-white">How often should fire drills be
+                            conducted?</h3>
+                       <i class="fa-solid fa-arrow-right text-white transition-transform duration-300 peer-checked:rotate-90"></i>
+                    </div>
+                    <div class="faq-answer mt-2">
+                        <p class="text-gray-400">Fire drills should be conducted at least twice a year in most
+                            commercial buildings. However, certain facilities like schools, healthcare facilities, and
+                            high-rise buildings may require more frequent drills. Our team can help establish a fire
+                            drill schedule that complies with local regulations and ensures your staff is well-prepared.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="faq-item pb-4 mb-4">
+                    <div class="faq-question flex justify-between items-center">
+                        <h3 class="question-text text-xl font-semibold text-white">What is the difference between active
+                            and passive fire protection?</h3>
+                        <i class="fa-solid fa-arrow-right text-white transition-transform duration-300 peer-checked:rotate-90"></i>
+                    </div>
+                    <div class="faq-answer mt-2">
+                        <p class="text-gray-400">Active fire protection requires some form of action or motion to work,
+                            such as sprinkler systems, fire extinguishers, or alarm systems. Passive fire protection is
+                            built into the structure itself and includes fire-resistant walls, floors, doors, and
+                            compartmentalization designed to contain fires and prevent their spread without requiring
+                            activation.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 5 -->
+                <div class="faq-item pb-4 mb-4">
+                    <div class="faq-question flex justify-between items-center">
+                        <h3 class="question-text text-xl font-semibold text-white">Do you provide 24/7 emergency
+                            service?</h3>
+                       <i class="fa-solid fa-arrow-right text-white transition-transform duration-300 peer-checked:rotate-90"></i>
+                    </div>
+                    <div class="faq-answer mt-2">
+                        <p class="text-gray-400">Yes, we provide 24/7 emergency service for all our clients. Our
+                            technicians are always on standby to respond to any fire protection system issues, ensuring
+                            your property remains protected at all times. Our average response time is under 2 hours.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 6 -->
+                <div class="faq-item pb-4">
+                    <div class="faq-question flex justify-between items-center">
+                        <h3 class="question-text text-xl font-semibold text-white">Are your systems compliant with local
+                            fire codes?</h3>
+                        <i class="fa-solid fa-arrow-right text-white transition-transform duration-300 peer-checked:rotate-90"></i>
+                    </div>
+                    <div class="faq-answer mt-2">
+                        <p class="text-gray-400">Absolutely. All our fire protection systems and services are designed
+                            to meet or exceed local, state, and national fire codes and regulations. Our team stays
+                            up-to-date with the latest code changes to ensure your property remains compliant at all
+                            times. We also provide documentation for fire marshal inspections.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-10">
+                <p class="text-gray-400 mb-6">Still have questions about our fire protection services?</p>
+                <a href="/contact"
+                    class="inline-flex items-center px-6 py-3 !bg-red-600 hover:!bg-red-800 text-white font-medium rounded-lg transition-colors duration-300 transform hover:scale-105">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20"
+                        fill="currentColor">
+                        <path
+                            d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z">
+                        </path>
+                    </svg>
+                    Contact Our Experts
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <script is:inline>
+        document.addEventListener('DOMContentLoaded', function () {
+            const faqItems = document.querySelectorAll('.faq-item');
+
+            faqItems.forEach(item => {
+                const question = item.querySelector('.faq-question');
+
+                question.addEventListener('click', () => {
+                    // Toggle active class on the clicked item
+                    item.classList.toggle('active');
+
+                    // Close other items
+                    faqItems.forEach(otherItem => {
+                        if (otherItem !== item) {
+                            otherItem.classList.remove('active');
+                        }
+                    });
+                });
+            });
+        });
+    </script>
 
 
-										<div class="elementskit-card active">
-											<div class="elementskit-card-header" id="primaryHeading-0-f7a977c">
-												<a href="#collapse-9bbff236826fdd85d998"
-													class="ekit-accordion--toggler elementskit-btn-link collapsed"
-													data-ekit-toggle="collapse"
-													data-target="#Collapse-9bbff236826fdd85d998" aria-expanded="true"
-													aria-controls="Collapse-9bbff236826fdd85d998">
 
-													<span class="ekit-accordion-title">What services does the fire
-														department provide?</span>
 
 
-													<div class="ekit_accordion_icon_group">
-														<div class="ekit_accordion_normal_icon">
-															<!-- Normal Icon -->
-															<i class="icon icon-down-arrow1"></i>
-														</div>
 
-														<div class="ekit_accordion_active_icon">
-															<!-- Active Icon -->
-															<i class="icon icon-up-arrow"></i>
-														</div>
-													</div>
 
-
-												</a>
-											</div>
-
-											<div id="Collapse-9bbff236826fdd85d998" class=" show collapse"
-												aria-labelledby="primaryHeading-0-f7a977c"
-												data-parent="#accordion-6826fdd85d998">
-
-												<div class="elementskit-card-body ekit-accordion--content">
-													<p>Far far away, behind the word mountains, far from the countries
-														Vokalia and Consonantia, there live the blind texts. Separated
-														they live in Bookmarksgrove right at the coast</p>
-												</div>
-
-											</div>
-
-										</div><!-- .elementskit-card END -->
-
-
-										<div class="elementskit-card ">
-											<div class="elementskit-card-header" id="primaryHeading-1-f7a977c">
-												<a href="#collapse-2c656ab6826fdd85d998"
-													class="ekit-accordion--toggler elementskit-btn-link collapsed"
-													data-ekit-toggle="collapse"
-													data-target="#Collapse-2c656ab6826fdd85d998" aria-expanded="false"
-													aria-controls="Collapse-2c656ab6826fdd85d998">
-
-													<span class="ekit-accordion-title">How do I report a fire
-														emergency?</span>
-
-
-													<div class="ekit_accordion_icon_group">
-														<div class="ekit_accordion_normal_icon">
-															<!-- Normal Icon -->
-															<i class="icon icon-down-arrow1"></i>
-														</div>
-
-														<div class="ekit_accordion_active_icon">
-															<!-- Active Icon -->
-															<i class="icon icon-up-arrow"></i>
-														</div>
-													</div>
-
-
-												</a>
-											</div>
-
-											<div id="Collapse-2c656ab6826fdd85d998" class=" collapse"
-												aria-labelledby="primaryHeading-1-f7a977c"
-												data-parent="#accordion-6826fdd85d998">
-
-												<div class="elementskit-card-body ekit-accordion--content">
-													<p>Far far away, behind the word mountains, far from the countries
-														Vokalia and Consonantia, there live the blind texts. Separated
-														they live in Bookmarksgrove right at the coast</p>
-												</div>
-
-											</div>
-
-										</div><!-- .elementskit-card END -->
-
-
-										<div class="elementskit-card ">
-											<div class="elementskit-card-header" id="primaryHeading-2-f7a977c">
-												<a href="#collapse-cdd4f0f6826fdd85d998"
-													class="ekit-accordion--toggler elementskit-btn-link collapsed"
-													data-ekit-toggle="collapse"
-													data-target="#Collapse-cdd4f0f6826fdd85d998" aria-expanded="false"
-													aria-controls="Collapse-cdd4f0f6826fdd85d998">
-
-													<span class="ekit-accordion-title">What equipment do firefighters
-														use during rescues?</span>
-
-
-													<div class="ekit_accordion_icon_group">
-														<div class="ekit_accordion_normal_icon">
-															<!-- Normal Icon -->
-															<i class="icon icon-down-arrow1"></i>
-														</div>
-
-														<div class="ekit_accordion_active_icon">
-															<!-- Active Icon -->
-															<i class="icon icon-up-arrow"></i>
-														</div>
-													</div>
-
-
-												</a>
-											</div>
-
-											<div id="Collapse-cdd4f0f6826fdd85d998" class=" collapse"
-												aria-labelledby="primaryHeading-2-f7a977c"
-												data-parent="#accordion-6826fdd85d998">
-
-												<div class="elementskit-card-body ekit-accordion--content">
-													<p>Far far away, behind the word mountains, far from the countries
-														Vokalia and Consonantia, there live the blind texts. Separated
-														they live in Bookmarksgrove right at the coast</p>
-												</div>
-
-											</div>
-
-										</div><!-- .elementskit-card END -->
-
-
-										<div class="elementskit-card ">
-											<div class="elementskit-card-header" id="primaryHeading-3-f7a977c">
-												<a href="#collapse-623c0246826fdd85d998"
-													class="ekit-accordion--toggler elementskit-btn-link collapsed"
-													data-ekit-toggle="collapse"
-													data-target="#Collapse-623c0246826fdd85d998" aria-expanded="false"
-													aria-controls="Collapse-623c0246826fdd85d998">
-
-													<span class="ekit-accordion-title">How can I prevent fires in my
-														home?</span>
-
-
-													<div class="ekit_accordion_icon_group">
-														<div class="ekit_accordion_normal_icon">
-															<!-- Normal Icon -->
-															<i class="icon icon-down-arrow1"></i>
-														</div>
-
-														<div class="ekit_accordion_active_icon">
-															<!-- Active Icon -->
-															<i class="icon icon-up-arrow"></i>
-														</div>
-													</div>
-
-
-												</a>
-											</div>
-
-											<div id="Collapse-623c0246826fdd85d998" class=" collapse"
-												aria-labelledby="primaryHeading-3-f7a977c"
-												data-parent="#accordion-6826fdd85d998">
-
-												<div class="elementskit-card-body ekit-accordion--content">
-													<p>Far far away, behind the word mountains, far from the countries
-														Vokalia and Consonantia, there live the blind texts. Separated
-														they live in Bookmarksgrove right at the coast</p>
-												</div>
-
-											</div>
-
-										</div><!-- .elementskit-card END -->
-
-
-										<div class="elementskit-card ">
-											<div class="elementskit-card-header" id="primaryHeading-4-f7a977c">
-												<a href="#collapse-9d660f46826fdd85d998"
-													class="ekit-accordion--toggler elementskit-btn-link collapsed"
-													data-ekit-toggle="collapse"
-													data-target="#Collapse-9d660f46826fdd85d998" aria-expanded="false"
-													aria-controls="Collapse-9d660f46826fdd85d998">
-
-													<span class="ekit-accordion-title">What should I do during a
-														fire?</span>
-
-
-													<div class="ekit_accordion_icon_group">
-														<div class="ekit_accordion_normal_icon">
-															<!-- Normal Icon -->
-															<i class="icon icon-down-arrow1"></i>
-														</div>
-
-														<div class="ekit_accordion_active_icon">
-															<!-- Active Icon -->
-															<i class="icon icon-up-arrow"></i>
-														</div>
-													</div>
-
-
-												</a>
-											</div>
-
-											<div id="Collapse-9d660f46826fdd85d998" class=" collapse"
-												aria-labelledby="primaryHeading-4-f7a977c"
-												data-parent="#accordion-6826fdd85d998">
-
-												<div class="elementskit-card-body ekit-accordion--content">
-													<p>Far far away, behind the word mountains, far from the countries
-														Vokalia and Consonantia, there live the blind texts. Separated
-														they live in Bookmarksgrove right at the coast</p>
-												</div>
-
-											</div>
-
-										</div><!-- .elementskit-card END -->
-
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="elementor-element elementor-element-d3faf76 e-con-full e-flex e-con e-child"
-						data-id="d3faf76" data-element_type="container">
-						<div class="elementor-element elementor-element-b00beda elementor-widget elementor-widget-elementskit-accordion"
-							data-id="b00beda" data-element_type="widget"
-							data-widget_type="elementskit-accordion.default">
-							<div class="elementor-widget-container">
-								<div class="ekit-wid-con">
-									<div class="elementskit-accordion accoedion-primary" id="accordion-6826fdd85e420">
-
-
-										<div class="elementskit-card active">
-											<div class="elementskit-card-header" id="primaryHeading-0-b00beda">
-												<a href="#collapse-9bbff236826fdd85e420"
-													class="ekit-accordion--toggler elementskit-btn-link collapsed"
-													data-ekit-toggle="collapse"
-													data-target="#Collapse-9bbff236826fdd85e420" aria-expanded="true"
-													aria-controls="Collapse-9bbff236826fdd85e420">
-
-													<span class="ekit-accordion-title">How does the department handle
-														hazardous materials incidents?</span>
-
-
-													<div class="ekit_accordion_icon_group">
-														<div class="ekit_accordion_normal_icon">
-															<!-- Normal Icon -->
-															<i class="icon icon-down-arrow1"></i>
-														</div>
-
-														<div class="ekit_accordion_active_icon">
-															<!-- Active Icon -->
-															<i class="icon icon-up-arrow"></i>
-														</div>
-													</div>
-
-
-												</a>
-											</div>
-
-											<div id="Collapse-9bbff236826fdd85e420" class=" show collapse"
-												aria-labelledby="primaryHeading-0-b00beda"
-												data-parent="#accordion-6826fdd85e420">
-
-												<div class="elementskit-card-body ekit-accordion--content">
-													<p>Far far away, behind the word mountains, far from the countries
-														Vokalia and Consonantia, there live the blind texts. Separated
-														they live in Bookmarksgrove right at the coast</p>
-												</div>
-
-											</div>
-
-										</div><!-- .elementskit-card END -->
-
-
-										<div class="elementskit-card ">
-											<div class="elementskit-card-header" id="primaryHeading-1-b00beda">
-												<a href="#collapse-2c656ab6826fdd85e420"
-													class="ekit-accordion--toggler elementskit-btn-link collapsed"
-													data-ekit-toggle="collapse"
-													data-target="#Collapse-2c656ab6826fdd85e420" aria-expanded="false"
-													aria-controls="Collapse-2c656ab6826fdd85e420">
-
-													<span class="ekit-accordion-title">Can I volunteer with the fire
-														department team?</span>
-
-
-													<div class="ekit_accordion_icon_group">
-														<div class="ekit_accordion_normal_icon">
-															<!-- Normal Icon -->
-															<i class="icon icon-down-arrow1"></i>
-														</div>
-
-														<div class="ekit_accordion_active_icon">
-															<!-- Active Icon -->
-															<i class="icon icon-up-arrow"></i>
-														</div>
-													</div>
-
-
-												</a>
-											</div>
-
-											<div id="Collapse-2c656ab6826fdd85e420" class=" collapse"
-												aria-labelledby="primaryHeading-1-b00beda"
-												data-parent="#accordion-6826fdd85e420">
-
-												<div class="elementskit-card-body ekit-accordion--content">
-													<p>Far far away, behind the word mountains, far from the countries
-														Vokalia and Consonantia, there live the blind texts. Separated
-														they live in Bookmarksgrove right at the coast</p>
-												</div>
-
-											</div>
-
-										</div><!-- .elementskit-card END -->
-
-
-										<div class="elementskit-card ">
-											<div class="elementskit-card-header" id="primaryHeading-2-b00beda">
-												<a href="#collapse-cdd4f0f6826fdd85e420"
-													class="ekit-accordion--toggler elementskit-btn-link collapsed"
-													data-ekit-toggle="collapse"
-													data-target="#Collapse-cdd4f0f6826fdd85e420" aria-expanded="false"
-													aria-controls="Collapse-cdd4f0f6826fdd85e420">
-
-													<span class="ekit-accordion-title">What training do firefighters
-														undergo before duty?</span>
-
-
-													<div class="ekit_accordion_icon_group">
-														<div class="ekit_accordion_normal_icon">
-															<!-- Normal Icon -->
-															<i class="icon icon-down-arrow1"></i>
-														</div>
-
-														<div class="ekit_accordion_active_icon">
-															<!-- Active Icon -->
-															<i class="icon icon-up-arrow"></i>
-														</div>
-													</div>
-
-
-												</a>
-											</div>
-
-											<div id="Collapse-cdd4f0f6826fdd85e420" class=" collapse"
-												aria-labelledby="primaryHeading-2-b00beda"
-												data-parent="#accordion-6826fdd85e420">
-
-												<div class="elementskit-card-body ekit-accordion--content">
-													<p>Far far away, behind the word mountains, far from the countries
-														Vokalia and Consonantia, there live the blind texts. Separated
-														they live in Bookmarksgrove right at the coast</p>
-												</div>
-
-											</div>
-
-										</div><!-- .elementskit-card END -->
-
-
-										<div class="elementskit-card ">
-											<div class="elementskit-card-header" id="primaryHeading-3-b00beda">
-												<a href="#collapse-f22917c6826fdd85e420"
-													class="ekit-accordion--toggler elementskit-btn-link collapsed"
-													data-ekit-toggle="collapse"
-													data-target="#Collapse-f22917c6826fdd85e420" aria-expanded="false"
-													aria-controls="Collapse-f22917c6826fdd85e420">
-
-													<span class="ekit-accordion-title">How are emergency calls
-														prioritized by dispatch teams?</span>
-
-
-													<div class="ekit_accordion_icon_group">
-														<div class="ekit_accordion_normal_icon">
-															<!-- Normal Icon -->
-															<i class="icon icon-down-arrow1"></i>
-														</div>
-
-														<div class="ekit_accordion_active_icon">
-															<!-- Active Icon -->
-															<i class="icon icon-up-arrow"></i>
-														</div>
-													</div>
-
-
-												</a>
-											</div>
-
-											<div id="Collapse-f22917c6826fdd85e420" class=" collapse"
-												aria-labelledby="primaryHeading-3-b00beda"
-												data-parent="#accordion-6826fdd85e420">
-
-												<div class="elementskit-card-body ekit-accordion--content">
-													<p>Far far away, behind the word mountains, far from the countries
-														Vokalia and Consonantia, there live the blind texts. Separated
-														they live in Bookmarksgrove right at the coast</p>
-												</div>
-
-											</div>
-
-										</div><!-- .elementskit-card END -->
-
-
-										<div class="elementskit-card ">
-											<div class="elementskit-card-header" id="primaryHeading-4-b00beda">
-												<a href="#collapse-90dba9d6826fdd85e420"
-													class="ekit-accordion--toggler elementskit-btn-link collapsed"
-													data-ekit-toggle="collapse"
-													data-target="#Collapse-90dba9d6826fdd85e420" aria-expanded="false"
-													aria-controls="Collapse-90dba9d6826fdd85e420">
-
-													<span class="ekit-accordion-title">What community programs does the
-														department offer residents?</span>
-
-
-													<div class="ekit_accordion_icon_group">
-														<div class="ekit_accordion_normal_icon">
-															<!-- Normal Icon -->
-															<i class="icon icon-down-arrow1"></i>
-														</div>
-
-														<div class="ekit_accordion_active_icon">
-															<!-- Active Icon -->
-															<i class="icon icon-up-arrow"></i>
-														</div>
-													</div>
-
-
-												</a>
-											</div>
-
-											<div id="Collapse-90dba9d6826fdd85e420" class=" collapse"
-												aria-labelledby="primaryHeading-4-b00beda"
-												data-parent="#accordion-6826fdd85e420">
-
-												<div class="elementskit-card-body ekit-accordion--content">
-													<p>Far far away, behind the word mountains, far from the countries
-														Vokalia and Consonantia, there live the blind texts. Separated
-														they live in Bookmarksgrove right at the coast</p>
-												</div>
-
-											</div>
-
-										</div><!-- .elementskit-card END -->
-
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="elementor-element elementor-element-f3f9ad9 e-flex e-con-boxed e-con e-parent" data-id="f3f9ad9"
-			data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-			<div class="e-con-inner">
-				<div class="elementor-element elementor-element-9f2c167 elementor-widget elementor-widget-heading"
-					data-id="9f2c167" data-element_type="widget" data-widget_type="heading.default">
-					<div class="elementor-widget-container">
-						<h2 class="elementor-heading-title elementor-size-default">Join Us in Saving Lives!</h2>
-					</div>
-				</div>
-				<div class="elementor-element elementor-element-0b5946c elementor-widget__width-initial elementor-widget elementor-widget-text-editor"
-					data-id="0b5946c" data-element_type="widget" data-widget_type="text-editor.default">
-					<div class="elementor-widget-container">
-						<p>Quisque ac turpis vitae neque posuere feugiat. Nunc laoreet felis at nulla egestas pulvinar.
-							Aliquam cursus consectetur nunc. Pellentesque quis risus luctus lectus fringilla tempor eu
-							ut dolor.</p>
-					</div>
-				</div>
-				<div class="elementor-element elementor-element-48aef9b elementor-align-center elementor-widget elementor-widget-button"
-					data-id="48aef9b" data-element_type="widget" data-widget_type="button.default">
-					<div class="elementor-widget-container">
-						<div class="elementor-button-wrapper">
-							<a class="elementor-button elementor-button-link elementor-size-sm" href="#">
-								<span class="elementor-button-content-wrapper">
-									<span class="elementor-button-text">Become a Firefighter</span>
-								</span>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="elementor-element elementor-element-e91196e e-flex e-con-boxed e-con e-parent" data-id="e91196e"
-			data-element_type="container">
-			<div class="e-con-inner">
-				<div class="elementor-element elementor-element-0b20b03 elementor-widget elementor-widget-heading"
-					data-id="0b20b03" data-element_type="widget" data-widget_type="heading.default">
-					<div class="elementor-widget-container">
-						<h5 class="elementor-heading-title elementor-size-default">Blog
-						</h5>
-					</div>
-				</div>
-				<div class="elementor-element elementor-element-952392f elementor-widget__width-initial elementor-widget elementor-widget-heading"
-					data-id="952392f" data-element_type="widget" data-widget_type="heading.default">
-					<div class="elementor-widget-container">
-						<h2 class="elementor-heading-title elementor-size-default">Community Protection Updates.</h2>
-					</div>
-				</div>
-				<div class="elementor-element elementor-element-38b7f14 elementor-widget__width-initial elementor-widget elementor-widget-text-editor"
-					data-id="38b7f14" data-element_type="widget" data-widget_type="text-editor.default">
-					<div class="elementor-widget-container">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
-							ullamcorper mattis, pulvinar dapibus leo.</p>
-					</div>
-				</div>
-				<div class="elementor-element elementor-element-14c9af7 elementor-widget-mobile__width-initial elementor-widget elementor-widget-elementskit-blog-posts"
-					data-id="14c9af7" data-element_type="widget" data-widget_type="elementskit-blog-posts.default">
-					<div class="elementor-widget-container">
-						<div class="ekit-wid-con">
-							<div id="post-items--14c9af7" class="row post-items">
-								<div class="col-lg-4 col-md-6">
-
-									<div class="elementskit-post-image-card">
-										<div class="elementskit-entry-header">
-											<a href="../../2025/01/14/courage-behind-the-shield/index.html"
-												class="elementskit-entry-thumb">
-												<img decoding="async"
-													src="../../wp-content/uploads/sites/30/2025/01/DBL3CXQ.jpg"
-													alt="Courage Behind the Shield">
-											</a><!-- .elementskit-entry-thumb END -->
-
-
-										</div><!-- .elementskit-entry-header END -->
-
-										<div class="elementskit-post-body ">
-											<h2 class="entry-title">
-												<a href="../../2025/01/14/courage-behind-the-shield/index.html">
-													Courage Behind the Shield </a>
-											</h2>
-
-											<div class="post-meta-list">
-												<span class="meta-date">
-													<i aria-hidden="true" class="icon icon-calendar3"></i> <span
-														class="meta-date-text">
-														January 14, 2025 </span>
-												</span>
-												<span class="post-comment">
-													<i aria-hidden="true" class="icon icon-comment"></i> <a
-														href="../../2025/01/14/courage-behind-the-shield/index.html#respond">0</a>
-												</span>
-											</div>
-
-
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-												ullamcorper tempus est. Donec sit amet lorem at ex eleifend convallis eu
-												vitae nisl. Nullam ornare&hellip;</p>
-											<div class="btn-wraper">
-
-												<a class="elementskit-btn whitespace--normal" id=""
-													href="../../2025/01/14/courage-behind-the-shield/index.html">
-													Learn more </a>
-											</div>
-										</div><!-- .elementskit-post-body END -->
-									</div>
-
-								</div>
-								<div class="col-lg-4 col-md-6">
-
-									<div class="elementskit-post-image-card">
-										<div class="elementskit-entry-header">
-											<a href="../../2025/01/14/heroes-in-every-flame/index.html"
-												class="elementskit-entry-thumb">
-												<img decoding="async"
-													src="../../wp-content/uploads/sites/30/2025/01/CUV7FDX.jpg"
-													alt="Heroes in Every Flame">
-											</a><!-- .elementskit-entry-thumb END -->
-
-
-										</div><!-- .elementskit-entry-header END -->
-
-										<div class="elementskit-post-body ">
-											<h2 class="entry-title">
-												<a href="../../2025/01/14/heroes-in-every-flame/index.html">
-													Heroes in Every Flame </a>
-											</h2>
-
-											<div class="post-meta-list">
-												<span class="meta-date">
-													<i aria-hidden="true" class="icon icon-calendar3"></i> <span
-														class="meta-date-text">
-														January 14, 2025 </span>
-												</span>
-												<span class="post-comment">
-													<i aria-hidden="true" class="icon icon-comment"></i> <a
-														href="../../2025/01/14/heroes-in-every-flame/index.html#respond">0</a>
-												</span>
-											</div>
-
-
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-												ullamcorper tempus est. Donec sit amet lorem at ex eleifend convallis eu
-												vitae nisl. Nullam ornare&hellip;</p>
-											<div class="btn-wraper">
-
-												<a class="elementskit-btn whitespace--normal" id=""
-													href="../../2025/01/14/heroes-in-every-flame/index.html">
-													Learn more </a>
-											</div>
-										</div><!-- .elementskit-post-body END -->
-									</div>
-
-								</div>
-								<div class="col-lg-4 col-md-6">
-
-									<div class="elementskit-post-image-card">
-										<div class="elementskit-entry-header">
-											<a href="../../2025/01/14/united-in-firefighting-excellence/index.html"
-												class="elementskit-entry-thumb">
-												<img decoding="async"
-													src="../../wp-content/uploads/sites/30/2025/01/NMZGMCN.jpg"
-													alt="United in Firefighting Excellence">
-											</a><!-- .elementskit-entry-thumb END -->
-
-
-										</div><!-- .elementskit-entry-header END -->
-
-										<div class="elementskit-post-body ">
-											<h2 class="entry-title">
-												<a href="../../2025/01/14/united-in-firefighting-excellence/index.html">
-													United in Firefighting Excellence </a>
-											</h2>
-
-											<div class="post-meta-list">
-												<span class="meta-date">
-													<i aria-hidden="true" class="icon icon-calendar3"></i> <span
-														class="meta-date-text">
-														January 14, 2025 </span>
-												</span>
-												<span class="post-comment">
-													<i aria-hidden="true" class="icon icon-comment"></i> <a
-														href="../../2025/01/14/united-in-firefighting-excellence/index.html#respond">0</a>
-												</span>
-											</div>
-
-
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-												ullamcorper tempus est. Donec sit amet lorem at ex eleifend convallis eu
-												vitae nisl. Nullam ornare&hellip;</p>
-											<div class="btn-wraper">
-
-												<a class="elementskit-btn whitespace--normal" id=""
-													href="../../2025/01/14/united-in-firefighting-excellence/index.html">
-													Learn more </a>
-											</div>
-										</div><!-- .elementskit-post-body END -->
-									</div>
-
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
 	</div>
 
 
-	
+
 </div>

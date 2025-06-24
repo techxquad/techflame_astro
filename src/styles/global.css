@@ -1,6 +1,19 @@
 @import "tailwindcss";
 
+/* Header  */
+#menu-fireguard-menu {
+	display: flex;
+	justify-content: center;
+}
 
+@media only screen and (max-width: 768px) {
+
+	#menu-fireguard-menu {
+		margin-left: 20px;
+		margin-top: 20px;
+		display: inline-block;
+	}
+}
 
 .testimonial-card {
 	transition: all 0.3s ease;
@@ -126,24 +139,24 @@
 
 /* Projects Section  */
 
-.text-xs{
+.text-xs {
 	color: white;
 }
 
-.project-heading{
+.project-heading {
 	display: flex;
 	gap: 20px;
 }
 
-.project-heading button{
-border-radius: 10px;
+.project-heading button {
+	border-radius: 10px;
 
 }
 
 
 .project-card {
 	transition: all 0.3s ease;
-	
+
 }
 
 .project-card:hover {
@@ -156,11 +169,11 @@ border-radius: 10px;
 	background-color: #141414;
 	color: white;
 	border-radius: 10px;
-	
+
 }
 
 .tab {
-	transition: all 0.3s ease;	
+	transition: all 0.3s ease;
 }
 
 .tab:hover:not(.tab-active) {
@@ -232,12 +245,12 @@ border-radius: 10px;
 	color: red;
 }
 
- 
+
 
 @media only screen and (max-width: 600px) {
-	 .project-heading{
+	.project-heading {
 		display: flex;
 		flex-direction: column;
 		gap: 20px;
-	 }
+	}
 }
